@@ -1,13 +1,13 @@
 {
-  "name": "cross-origin-webpack-plugin",
-  "version": "0.1.0",
+  "name": "script-append-cross-origin-webpack-plugin",
+  "version": "0.1.1",
   "description": "work with HtmlWebpackPlugin, append crossorigin attribute to thoese script tag.",
   "author": "workkk",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/workkk98/cross-origin-webpack-plugin"
+    "url": "https://github.com/workkk98/script-append-cross-origin-webpack-plugin"
   },
   "keywords": [
     "webpack-plugin",
