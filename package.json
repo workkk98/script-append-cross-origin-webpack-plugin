@@ -7,7 +7,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/workkk98/cross-origin-webpack-plugin",
+    "url": "https://github.com/workkk98/cross-origin-webpack-plugin"
   },
   "keywords": [
     "webpack-plugin",
