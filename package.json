@@ -1,0 +1,31 @@
+{
+  "name": "cross-origin-webpack-plugin",
+  "version": "0.1.0",
+  "description": "work with HtmlWebpackPlugin, append crossorigin attribute to thoese script tag.",
+  "author": "workkk",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workkk98/cross-origin-webpack-plugin",
+  },
+  "keywords": [
+    "webpack-plugin",
+    "webpack",
+    "cross-origin",
+    "html-webpack-plugin"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/build.js",
+    "release": "npm publish --registry=\"https://registry.npmjs.org\""
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.44.0"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": ">=2.0.0",
+    "webpack": "^5"
+  }
+}
