@@ -16,7 +16,9 @@ const webpackConfig = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './template.html')
     }),
-    new CrossOriginWebpackPlugin(),
+    new CrossOriginWebpackPlugin({
+      matcher: 'bundle'
+    }),
   ],
 }
 
